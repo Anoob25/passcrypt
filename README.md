@@ -66,7 +66,7 @@ sudo pip install cryptography
 
 **Encryption & Security**
 
-**Command**
+## Command
 ```python
 sudo python passcrypt.py
 ```
