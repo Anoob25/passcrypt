@@ -1,0 +1,41 @@
+
+
+This file prevents unnecessary or sensitive files from being tracked by Git.
+
+```plaintext
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Log files
+*.log
+
+# Local settings
+*.env
+config.json
+config.yml
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python dependencies
+*.egg-info/
+dist/
+build/
+
+# Pipenv or Poetry lock files
+Pipfile.lock
+poetry.lock
